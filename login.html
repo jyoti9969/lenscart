@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <title>Ecommerce Jewellery Website</title>
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://unicons.iconscout.com/release/v2.1.9/css/unicons.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- OWN CSS -->
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="css/responsive-style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+  <!-- header design -->
+  <header>
+    <div class="top-header" style="background-color: black;">
+      <div class="container d-flex justify-content-between align-items-center py-3">
+        <span class="text-white">Free shipping for orders over </span>
+        <span class="text-white">Call: 800-6688-999</span>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navigation-wrap">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#" >LENSCART
+         
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fas fa-stream navbar-toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#new-arrivals">New Arrivals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="#deal">Deal of the day</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li> 
+            <li class="nav-item">
+              <a class=" nav-link "  href="login.html">   <i class='fa fa-user w-100 h-100  icon' ></i></a>
+    
+            </li> 
+            <li class="nav-item">
+              <a class=" nav-link "  href="cart.html">   <i class='fa fa-cart-plus w-100 h-100  icon' ></i></a>
+    
+            </li> 
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+   
+  <!-- section-1 top-banner -->
+  <section id="home">
+    <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/mens-spectacles.jpg" class="d-block w-100" alt="img-1" style="height:35rem" >
+          <div class="carousel-caption text-center">
+            <h1 class="text-dark">up to 45% off</h1>
+            <p class="text-dark">The Unique Spectacles.</p>
+            <a href="#" class="main-btn text-dark">Shop now</a>
+          </div> 
+        </div>
+       
+       
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section> 
+
+ 
+   
+  <!-- sign-up -->
+  <div class="section  " >
+    <div class="container h-50 w-50">
+        <div class="row full-height justify-content-center">
+            <div class="col-12 text-center align-self-center py-5">
+                <div class="section pb-5 pt-5 pt-sm-2 text-center">
+                    <h6 class="mb-0 pb-3"><span>Log In </span><span>Sign Up</span></h6>
+                      <input class="checkbox" type="checkbox" id="reg-log" name="reg-log"/>
+                      <label for="reg-log"></label>
+                    <div class="card-3d-wrap mx-auto">
+                        <div class="card-3d-wrapper">
+                            <div class="card-front">
+                                <div class="center-wrap">
+                                    <div class="section text-center">
+                                        <h4 class="mb-4 pb-3 text-white">Log In</h4>
+                                        <div class="form-group">
+                                            <input type="email" name="logemail" class="form-style" placeholder="Your Email" id="logemail" autocomplete="off">
+                                            <i class="input-icon uil uil-at"></i>
+                                        </div>	
+                                        <div class="form-group mt-2">
+                                            <input type="password" name="logpass" class="form-style" placeholder="Your Password" id="logpass" autocomplete="off">
+                                            <i class="input-icon uil uil-lock-alt"></i>
+                                        </div>
+                                        <a href="#" class="btn mt-4 text-white">submit</a>
+                                        <p class="mb-0 mt-4 text-center"><a href="#0" class="link">Forgot your password?</a></p>
+                                      </div>
+                                  </div>
+                              </div>
+                            <div class="card-back">
+                                <div class="center-wrap">
+                                    <div class="section text-center">
+                                        <h4 class="mb-4 pb-3 text-white">Sign Up</h4>
+                                        <div class="form-group">
+                                            <input type="text" name="logname" class="form-style" placeholder="Your Full Name" id="logname" autocomplete="off">
+                                            <i class="input-icon uil uil-user"></i>
+                                        </div>	
+                                        <div class="form-group mt-2">
+                                            <input type="email" name="logemail" class="form-style" placeholder="Your Email" id="logemail" autocomplete="off">
+                                            <i class="input-icon uil uil-at"></i>
+                                        </div>	
+                                        <div class="form-group mt-2">
+                                            <input type="password" name="logpass" class="form-style" placeholder="Your Password" id="logpass" autocomplete="off">
+                                            <i class="input-icon uil uil-lock-alt"></i>
+                                        </div>
+                                        <a href="#" class="btn mt-4 "style="color:black">submit</a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+    </div>
+</div>
+
+        
+  
+    <!-- section-5 style-->
+    <section id="blog">
+      <div class="blog-section wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 mb-2 text-content text-center">
+              <h2>LATEST NEWS FROM THE BLOG</h2>
+              <p>This unique spectacles is handcrafted  using fine silver and semi precious stones. </p>
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-md-4 col-sm-6 mb-4 mb-lg-0">
+              <div>
+                <a href="#" class="card-thumb">
+                  <img src="./images/img/b-1.jpg" alt="" class="img-fluid">
+                </a>
+                <div class="text-center px-2 mt-2">
+                  <h2>Mens spectacles</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fuga excepturi, quibusdam, officia ratione provident laborum rerum, porro voluptates quia esse aliquam incidunt mollitia nemo perspiciatis praesentium quisquam cum pariatur!</p>
+                  <a href="#" class="main-btn">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4 mb-lg-0">
+              <div>
+                <a href="#" class="card-thumb">
+                  <img src="./images/img/b-2.jpg" alt="" class="img-fluid">
+                </a>
+                <div class="text-center px-2 mt-2">
+                  <h2>Kids Spectacles</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, eius incidunt! Enim obcaecati nostrum iusto blanditiis qui tenetur accusamus neque, odio, delectus mollitia ipsum inventore magnam impedit quas, autem ipsam?</p>
+                  <a href="#" class="main-btn">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4 mb-lg-0">
+              <div>
+                <a href="#" class="card-thumb">
+                  <img src="./images/img/b-3.jpg" alt="" class="img-fluid">
+                </a>
+                <div class="text-center px-2 mt-2">
+                  <h2>Women Spectacles</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error molestias aspernatur perspiciatis rerum accusantium voluptates, minima corporis ipsum quis, numquam, necessitatibus vitae ut at nulla aut eveniet? Ut, quam accusantium?</p>
+                  <a href="#" class="main-btn">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- section-7 footer-->
+    <footer>
+      <div class="footer py-4"style="background-color: black;">
+        <div class="container" style="background-color: black;">
+          <div class="row align-items-center">
+            <div class="col-md-6 text-md-start text-center text-lg-start"> 
+              <div class="footer-logo text-muted mb-3 mb-md-0"> 
+                © 2021. CODE4EDUCATION. All rights reserved.
+              </div>
+            </div>
+            <div class="col-md-6 text-center text-lg-end">
+              <div class="footer-social pt-1">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-dribbble"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+     
+    <!-- JS Libraries --> 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+    <!-- own js -->
+    <script src="script.js"></script>
+</body>
+
+</html>
+

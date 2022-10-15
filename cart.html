@@ -1,0 +1,339 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <title>Ecommerce Jewellery Website</title>
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://unicons.iconscout.com/release/v2.1.9/css/unicons.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- OWN CSS -->
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="css/responsive-style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+  <!-- header design -->
+  <header>
+    <div class="top-header" style="background-color: black;">
+      <div class="container d-flex justify-content-between align-items-center py-3">
+        <span class="text-white">Free shipping for orders over </span>
+        <span class="text-white">Call: 800-6688-999</span>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navigation-wrap">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#" >LENSCART
+         
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fas fa-stream navbar-toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#new-arrivals">New Arrivals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="#deal">Deal of the day</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li> 
+            <li class="nav-item">
+              <a class=" nav-link "  href="login.html">   <i class='fa fa-user w-100 h-100  icon' ></i></a>
+    
+            </li> 
+            <li class="nav-item">
+              <a class=" nav-link "  href="cart.html">   <i class='fa fa-cart-plus w-100 h-100  icon' ></i></a>
+    
+            </li> 
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+   
+  <!-- section-1 top-banner -->
+  <section id="home">
+    <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/mans-spectacles-1.jpg" class="d-block w-100" alt="img-1" style="height:35rem" >
+          <div class="carousel-caption text-center">
+            <h1 class="text-white">up to 45% off</h1>
+            <p class="text-white">The Unique Spectacles.</p>
+            <a href="#" class="main-btn text-white">Shop now</a>
+          </div> 
+        </div>
+       
+       
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section> 
+<!-- cart--------------------------- -->
+<section class="h-100 h-custom" style="background-color: #eee;">
+    <div class="container h-100 py-5">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col">
+          <div class="card shopping-cart" style="border-radius: 15px;">
+            <div class="card-body text-black">
+  
+              <div class="row">
+                <div class="col-lg-6 px-5 py-4">
+  
+                  <h3 class="mb-5 pt-2 text-center fw-bold text-uppercase">Your products</h3>
+  
+                  <div class="d-flex align-items-center mb-5">
+                    <div class="flex-shrink-0">
+                      <img src="./images/women9.jpg"
+                        class="img-fluid" style="width: 150px;" alt="Generic placeholder image">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      <a href="#!" class="float-end text-black"><i class="fas fa-times"></i></a>
+                      <h5 class="text-primary">Black Cateye Women Eyeglasses</h5>
+                      <h6 style="color: #9e9e9e;">Color: white</h6>
+                      <div class="d-flex align-items-center">
+                        <p class="fw-bold mb-0 me-5 pe-3">799$</p>
+                        <div class="def-number-input number-input safari_only">
+                          <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                            class="minus"></button>
+                          <input class="quantity fw-bold text-black" min="0" name="quantity" value="1"
+                            type="number">
+                          <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                            class="plus"></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="d-flex align-items-center mb-5">
+                    <div class="flex-shrink-0">
+                      <img src="./images/men4-2.jpg"
+                        class="img-fluid" style="width: 150px;" alt="Generic placeholder image">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      <a href="#!" class="float-end text-black"><i class="fas fa-times"></i></a>
+                      <h5 class="text-primary">Gold Rectangle Rimless Eyeglasses</h5>
+                      <h6 style="color: #9e9e9e;">Color: Red</h6>
+                      <div class="d-flex align-items-center">
+                        <p class="fw-bold mb-0 me-5 pe-3">239$</p>
+                        <div class="def-number-input number-input safari_only">
+                          <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                            class="minus"></button>
+                          <input class="quantity fw-bold text-black" min="0" name="quantity" value="1"
+                            type="number">
+                          <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                            class="plus"></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="d-flex align-items-center mb-5">
+                    <div class="flex-shrink-0">
+                      <img src="./images/specs13.jpg"
+                        class="img-fluid" style="width: 150px;" alt="Generic placeholder image">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      <a href="#!" class="float-end text-black"><i class="fas fa-times"></i></a>
+                      <h5 class="text-primary">Blue Cateye Women Eyeglasses</h5>
+                      <h6 style="color: #9e9e9e;">Color: rose pink</h6>
+                      <div class="d-flex align-items-center">
+                        <p class="fw-bold mb-0 me-5 pe-3">659$</p>
+                        <div class="def-number-input number-input safari_only">
+                          <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                            class="minus"></button>
+                          <input class="quantity fw-bold text-black" min="0" name="quantity" value="2"
+                            type="number">
+                          <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                            class="plus"></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <hr class="mb-4" style="height: 2px; background-color: #1266f1; opacity: 1;">
+  
+                  <div class="d-flex justify-content-between px-x">
+                    <p class="fw-bold">Discount:</p>
+                    <p class="fw-bold">95$</p>
+                  </div>
+                  <div class="d-flex justify-content-between p-2 mb-2" style="background-color: #e1f5fe;">
+                    <h5 class="fw-bold mb-0">Total:</h5>
+                    <h5 class="fw-bold mb-0">2261$</h5>
+                  </div>
+  
+                </div>
+                <div class="col-lg-6 px-5 py-4">
+  
+                  <h3 class="mb-5 pt-2 text-center fw-bold text-uppercase">Payment</h3>
+  
+                  <form class="mb-5">
+  
+                    <div class="form-outline mb-5">
+                      <input type="text" id="typeText" class="form-control form-control-lg" siez="17"
+                        value="1234 5678 9012 3457" minlength="19" maxlength="19" />
+                      <label class="form-label" for="typeText">Card Number</label>
+                    </div>
+  
+                    <div class="form-outline mb-5">
+                      <input type="text" id="typeName" class="form-control form-control-lg" siez="17"
+                        value="John Smith" />
+                      <label class="form-label" for="typeName">Name on card</label>
+                    </div>
+  
+                    <div class="row">
+                      <div class="col-md-6 mb-5">
+                        <div class="form-outline">
+                          <input type="text" id="typeExp" class="form-control form-control-lg" value="01/22"
+                            size="7" id="exp" minlength="7" maxlength="7" />
+                          <label class="form-label" for="typeExp">Expiration</label>
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-5">
+                        <div class="form-outline">
+                          <input type="password" id="typeText" class="form-control form-control-lg"
+                            value="&#9679;&#9679;&#9679;" size="1" minlength="3" maxlength="3" />
+                          <label class="form-label" for="typeText">Cvv</label>
+                        </div>
+                      </div>
+                    </div>
+  
+                    <p class="mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit <a
+                        href="#!">obcaecati sapiente</a>.</p>
+  
+                    <button type="button" class="btn btn-primary btn-block btn-lg">Buy now</button>
+  
+                    <h5 class="fw-bold mb-5" style="position: absolute; bottom: 0;">
+                      <a href="#!"><i class="fas fa-angle-left me-2"></i>Back to shopping</a>
+                    </h5>
+  
+                  </form>
+  
+                </div>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+   
+ 
+        
+  
+    <!-- section-5 style-->
+    <section id="blog">
+      <div class="blog-section wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 mb-2 text-content text-center">
+              <h2>LATEST NEWS FROM THE BLOG</h2>
+              <p>This unique spectacles is handcrafted  using fine silver and semi precious stones. </p>
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-md-4 col-sm-6 mb-4 mb-lg-0">
+              <div>
+                <a href="#" class="card-thumb">
+                  <img src="./images/img/b-1.jpg" alt="" class="img-fluid">
+                </a>
+                <div class="text-center px-2 mt-2">
+                  <h2>Mens spectacles</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum necessitatibus sit consequuntur minus ab neque est blanditiis quos corrupti cumque voluptatem, sapiente dicta culpa tempora harum autem, doloremque aliquid architecto.</p>
+                  <a href="#" class="main-btn">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4 mb-lg-0">
+              <div>
+                <a href="#" class="card-thumb">
+                  <img src="./images/img/b-2.jpg" alt="" class="img-fluid">
+                </a>
+                <div class="text-center px-2 mt-2">
+                  <h2>kids Specyacles</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti harum ex temporibus recusandae molestias ullam atque saepe similique placeat earum aspernatur in at dolor alias aliquid, delectus dolorem autem voluptate.</p>
+                  <a href="#" class="main-btn">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4 mb-lg-0">
+              <div>
+                <a href="#" class="card-thumb">
+                  <img src="./images/img/b-3.jpg" alt="" class="img-fluid">
+                </a>
+                <div class="text-center px-2 mt-2">
+                  <h2>womens spectacles</h2>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat veniam possimus ipsum porro consectetur recusandae eligendi, iusto officiis iste ut? Optio cum repellat, maiores perspiciatis quod dolore sequi in quis?</p>
+                  <a href="#" class="main-btn">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- section-7 footer-->
+    <footer>
+      <div class="footer py-4"style="background-color: black;">
+        <div class="container" style="background-color: black;">
+          <div class="row align-items-center">
+            <div class="col-md-6 text-md-start text-center text-lg-start"> 
+              <div class="footer-logo text-muted mb-3 mb-md-0"> 
+                © 2021. CODE4EDUCATION. All rights reserved.
+              </div>
+            </div>
+            <div class="col-md-6 text-center text-lg-end">
+              <div class="footer-social pt-1">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-dribbble"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+     
+    <!-- JS Libraries --> 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+    <!-- own js -->
+    <script src="script.js"></script>
+</body>
+
+</html>
+
